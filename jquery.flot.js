@@ -1761,8 +1761,8 @@
 
                         if(angle) {
                             ctx.save();
-                            x = plotOffset.left + axis.p2c(tick.v);
-                            y = box.top + 2 * box.padding;
+                            x = plotOffset.left + axis.p2c(tick.v) + 30;
+                            y = box.top + 3 * box.padding;
 
                             var sin_angle = Math.sin(angle);
                             var cos_angle = Math.cos(angle);
